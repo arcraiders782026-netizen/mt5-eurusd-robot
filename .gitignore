@@ -1,69 +1,39 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
+# MT5 Files
+*.ex5
+*.mq5~
+*.ex4
 
 # Temporary files
 *.tmp
+*.temp
 *.log
-*.bak
+
+# IDE
+.vscode/
+.idea/
 *.swp
+*.swo
 
-# vcpkg
-vcpkg_installed/
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# debug information files
-*.dwo
+# Backtest results
+*.fxt
+*.hst
+*.zip
 
-# test output & cache
-Testing/
-.cache/
+# User-specific files
+config_local.mqh
+parameters_local.mqh
+
+# Build directories
+build/
+dist/
+Release/
+Debug/
+
+# Test files
+test_results/
+*.bak
